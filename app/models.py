@@ -24,3 +24,27 @@ class Session(Base):
     user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
     expires_at = Column(DateTime, nullable=False)
     created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
+
+class Subject(Base):
+    __tablename__ = "subjects"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String, unique=True, nullable=False)
+    
+class Topic(Base):
+    __tablename__ = "topics"
+    id = Column(Integer, primary_key=True)
+    subject_id = Column(Integer, ForeignKey("subjects.id", ondelete="CASCADE"), nullable=False)
+    name = Column(String, unique=True, nullable=False)
+    
+class Chapter(Base):
+    __tablename__ = "chapters"
+    id = Column(Integer, primary_key=True)
+    topic_id = Column(Integer, ForeignKey("topics.id", ondelete="CASCADE"), nullable=False)
+    name = Column(String, unique=True, nullable=False)
+    
+class Concept(Base):
+    __tablename__ = "concepts"
+    id = Column(Integer, primary_key=True)
+    chapter_id = Column(Integer, ForeignKey("chapters.id", ondelete="CASCADE"), nullable=False)
+    name = Column(String, unique=True, nullable=False)

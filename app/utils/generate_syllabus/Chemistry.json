@@ -1,0 +1,277 @@
+{
+  "subject": "Chemistry",
+  "topics": [
+    {
+      "topic": "Organic Chemistry",
+      "chapters": [
+        {
+          "name": " Some Basic Concepts in Chemistry",
+          "concepts": [
+            "Matter and its nature",
+            "Dalton's atomic theory",
+            "Concept of atom, molecule, element and compound",
+            "Laws of chemical combination",
+            "Atomic and molecular masses",
+            "mole concept",
+            "molar mass",
+            "percentage composition",
+            "empirical and molecular formulae",
+            "Chemical equations and stoichiometry"
+          ]
+        },
+        {
+          "name": "Atomic Structure",
+          "concepts": [
+            "Nature of electromagnetic radiation",
+            "Photoelectric effect",
+            "Spectrum of the hydrogen atom",
+            "Bohr model of a hydrogen atom - its postulates",
+            "Derivation of the relations for the energy of the electron and radii of the different orbits",
+            "Limitations of Bohr's model",
+            "Dual nature of matter",
+            "De Broglie's relationship",
+            "Heisenberg uncertainty principle",
+            "Elementary ideas of quantum mechanics",
+            "The quantum mechanical model of the atom and its important features",
+            "Concept of atomic orbitals as one-electron wave functions",
+            "Variation of ψ and ψ^2 with r for 1s and 2s orbitals",
+            "Various quantum numbers (n, l, and ml, ms)",
+            "Shapes of s, p and d orbitals",
+            "Electron spin and spin quantum number",
+            "Aufbau principle, Pauli's exclusion principle and Hund's rule",
+            "Electronic configuration of elements",
+            "Extra stability of half-filled and completely filled orbitals"
+          ]
+        },
+        {
+          "name": "Chemical Bonding and molecular Structure",
+          "concepts": [
+            "Kossel-Lewis approach to chemical bond formation",
+            "concept of ionic and covalent bonds",
+            "Formation of ionic bonds",
+            "Factors affecting the formation of ionic bonds",
+            "Calculation of lattice enthalpy",
+            "Covalent Bonding: Concept of electronegativity",
+            "Fajans' rule",
+            "Dipole moment",
+            "Valence Shell Electron Pair Repulsion (VSEPR) theory and shapes of simple molecules",
+            "Quantum mechanical approach to covalent bonding",
+            "Valence bond theory - important features",
+            "Hybridization involving s, p and d orbitals",
+            "Resonance",
+            "Molecular Orbital Theory",
+            "LCAOs",
+            "Types of molecular orbitals (bonding, antibonding)",
+            "Sigma and pi-bonds",
+            "Molecular orbital electronic configurations of homonuclear diatomic molecules",
+            "Concept of bond order, bond length and bond energy",
+            "Metallic bonding",
+            "hydrogen bonding and its applications"
+          ]
+        },
+        {
+          "name": "Chemical Thermodynamics",
+          "concepts": [
+            "Fundamentals of thermodynamics",
+            "System and surroundings",
+            "Extensive properties",
+            "Intensive properties",
+            "State functions",
+            "Entropy",
+            "Types of thermodynamic processes",
+            "Laws of thermodynamics (zeroth, first, second, third) and their implications",
+            "Thermodynamic cycles (e.g., Carnot cycle)",
+            "Internal energy, enthalpy, and their relationships",
+            "Gibbs and Helmholtz free energies",
+            "The concept of equilibrium and reversible processes",
+            "First law of thermodynamics",
+            "Concepts of work, heat, internal energy and enthalpy",
+            "Heat capacity and molar heat capacity",
+            "Hess's law of constant heat summation",
+            "Enthalpies of bond dissociation, combustion, formation, atomization, sublimation, phase transition, hydration, ionization and solution",
+            "Second law of thermodynamics",
+            "Spontaneity of processes",
+            "ΔS of the universe and ΔG of the system as criterion for spontaneity",
+            "ΔG° and equilibrium constant"
+          ]
+        },
+        {
+          "name": "Solutions",
+          "concepts": [
+            "Different methods for expressing the concentration of solution",
+            "Molality",
+            "Molarity",
+            "Mole fraction",
+            "Percentage concentration (by volume)",
+            "Percentage concentration (by mass)",
+            "Vapour pressure of solutions",
+            "Raoult's Law - Ideal solutions",
+            "Raoult's Law - Nonideal solutions",
+            "Vapour pressure - composition",
+            "Plots for ideal and non-ideal solutions",
+            "Colligative properties of dilute solutions",
+            "Relative lowering of vapour pressure",
+            "Depression of freezing point",
+            "Elevation of boiling point",
+            "Osmotic pressure",
+            "Molecular mass using colligative properties",
+            "Abnormal value of molar mass",
+            "Van't Hoff factor and its significance"
+          ]
+        },
+        {
+          "name": "Equilibrium",
+          "concepts": [
+            "equilibrium and dynamic equilibrium",
+            "Equilibria involving physical processes",
+            "Henry's law",
+            "Characteristics of equilibrium involving physical processes",
+            "Equilibria involving chemical processes",
+            "Law of chemical equilibrium",
+            "Equilibrium constants: Kp and Kc",
+            "Significance of ΔG and ΔG° in chemical equilibrium",
+            "Factors affecting equilibrium concentration, pressure, temperature",
+            "Effect of catalyst on equilibrium",
+            "Le Chatelier's principle",
+            "Ionic equilibrium",
+            "Weak and strong electrolytes",
+            "Ionization of electrolytes",
+            "Acids and bases: Arrhenius, Bronsted-Lowry, and Lewis concepts and their ionization",
+            "Acid-base equilibria (including multistage ionization) and ionization constants",
+            "Ionization of water",
+            "pH scale",
+            "Common ion effect",
+            "Hydrolysis of salts and pH of their solutions",
+            "Solubility of sparingly soluble salts",
+            "Solubility product (Ksp)",
+            "Buffer solutions"
+          ]
+        },
+        {
+          "name": "Redox Reactions",
+          "concepts": [
+            "Electronic concepts of oxidation and reduction",
+            "Redox reactions",
+            "Oxidation number",
+            "Rules for assigning oxidation numbers",
+            "Balancing redox reactions",
+            "Electrolytic conduction",
+            "Metallic conduction",
+            "Conductance in electrolytic solutions",
+            "Molar conductivities and their variation with concentration",
+            "Kohlrausch's law and its applications",
+            "Electrochemical cells",
+            "Electrolytic cells",
+            "Galvanic cells",
+            "Different types of electrodes",
+            "Electrode potentials including standard electrode potential",
+            "Half-cell and cell reactions",
+            "EMF of a Galvanic cell and its measurement",
+            "Nernst equation and its applications",
+            "Relationship between cell potential and Gibbs' energy change",
+            "Dry cells and lead accumulators",
+            "Fuel cells"
+          ]
+        },
+        {
+          "name": "Chemical Kinetics",
+          "concepts": [
+            "Rate of a chemical reaction",
+            "factors affecting the rate of reactions: concentration, temperature, pressureand catalyst",
+            "Elementary and complex reactions",
+            "Order and molecularity of reactions",
+            "Rate law",
+            "Rate constant and its units",
+            "Differential form of zero-order reactions",
+            "Integral form of zero-order reactions",
+            "Characteristics and half-life of zero-order reactions",
+            "Differential form of first-order reactions",
+            "Integral form of first-order reactions",
+            "Characteristics and half-life of first-order reactions",
+            "Effect of temperature on the rate of reactions",
+            "Arrhenius theory",
+            "Activation energy and its calculation",
+            "Collision theory of bimolecular gaseous reactions"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Inorganic Chemistry",
+      "chapters": [
+        {
+          "name": "Classification of elements and Periodicity in properties",
+          "concepts": [
+            "Modern periodic law and present form of the periodic table",
+            "s-block elements",
+            "p-block elements",
+            "d-block elements",
+            "f-block elements",
+            "Periodic trends in properties of elements",
+            "Atomic radii (trend across periods and groups)",
+            "Ionic radii",
+            "First ionization enthalpy (ionization energy) trends",
+            "Electron gain enthalpy (electron affinity) trends",
+            "Valence",
+            "Oxidation states",
+            "Chemical reactivity trends across periods and groups"
+          ]
+        },
+        {
+          "name": "p-block elements",
+          "concepts": [
+            "Electronic configuration across periods",
+            "General trends in physical properties across periods",
+            "General trends in chemical properties across periods",
+            "Trends down a group",
+            "Trends in properties across the groups",
+            "Unique behaviour of the first element in each group",
+            "Electronic configuration patterns for the first elements of each group",
+            "Exceptions and anomalies in periodic trends"
+          ]
+        },
+        {
+          "name": "d and f block elements",
+          "concepts": [
+            "Transition Elements introduction",
+            "Electronic configuration",
+            "Occurrence and characteristics",
+            "General trends in the first-row transition elements",
+            "Physical properties",
+            "Ionization enthalpy",
+            "Oxidation states",
+            "Atomic radii",
+            "Colour",
+            "Catalytic behaviour",
+            "Magnetic properties",
+            "Complex formation",
+            "Interstitial compounds",
+            "Alloy formation",
+            "Preparation, properties and uses of K2Cr2O7",
+            "Preparation, properties and uses of KMnO4",
+            "Inner Transition Elements",
+            "Lanthanoids - Electronic configuration, oxidation states and Lanthanoid contraction.",
+            "Actinoids - Electronic configuration and oxidation states."
+          ]
+        },
+        {
+          "name": "Coordination Compounds",
+          "concepts": [
+            "Introduction to coordination compounds",
+            "Werner's theory",
+            "Ligands",
+            "Coordination number",
+            "Denticity",
+            "Chelation",
+            "IUPAC nomenclature of mononuclear coordination compounds",
+            "Isomerism",
+            "Bonding: Valence Bond theory",
+            "Basic ideas of Crystal Field Theory",
+            "Colour and magnetic properties",
+            "Importance in qualitative analysis, extraction of metals"
+          ]
+        }
+      ]
+    }
+  ]
+}
