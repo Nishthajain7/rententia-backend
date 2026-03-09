@@ -47,4 +47,4 @@ class Concept(Base):
     __tablename__ = "concepts"
     id = Column(Integer, primary_key=True)
     chapter_id = Column(Integer, ForeignKey("chapters.id", ondelete="CASCADE"), nullable=False)
-    name = Column(String, unique=True, nullable=False)
+    name = Column(String, nullable=False)

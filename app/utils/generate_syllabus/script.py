@@ -50,12 +50,8 @@ def populate():
                         db.flush()
 
                     for concept_name in chapter_data["concepts"]:
-                        concept = (db.query(Concept).filter(
-                            Concept.name == concept_name).first())
-                        
-                        if not concept:
-                            concept = Concept(name=concept_name,chapter_id=chapter.id)
-                            db.add(concept)
+                        concept = Concept(name=concept_name,chapter_id=chapter.id)
+                        db.add(concept)
                             
             db.commit()
 
