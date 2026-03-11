@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel, ConfigDict, EmailStr
 from ..enums import Grade
 
 class UserOut(BaseModel):
@@ -11,8 +11,7 @@ class UserOut(BaseModel):
     city: str
     marketing: str
     
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 class LoginRequest(BaseModel):
     username: str

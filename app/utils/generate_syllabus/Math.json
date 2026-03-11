@@ -1,0 +1,641 @@
+{
+  "subject": "Mathematics",
+  "topics": [
+    {
+      "topic": "Geometry",
+      "chapters": [
+        {
+          "name": "Introduction to 3D Geometry",
+          "concepts": [
+            "3D coordinate system",
+            "Distance formula",
+            "Section formula",
+            "Equation of sphere"
+          ]
+        },
+        {
+          "name": "Vectors",
+          "concepts": [
+            "Definition of vector",
+            "Angle between vectors",
+            "Collinear and non-collinear vectors",
+            "Coplanar and non-coplanar vectors",
+            "Multiplication of vector by scalar",
+            "Addition of vectors",
+            "Section formula in vectors",
+            "Component of vector",
+            "Direction cosines of vector",
+            "Vector joining two points",
+            "Vector bisecting the angle between two vectors",
+            "Linear combination of vectors",
+            "Linearly dependent vectors",
+            "Linearly independent vectors",
+            "Dot product (scalar product) of vectors",
+            "Dot product and its properties",
+            "Physical interpretation of dot product",
+            "Square of sum of vectors",
+            "Component of one vector in the direction of another",
+            "Applications of dot product in geometry",
+            "Cross product and its Properties",
+            "Solving vector equations using cross product",
+            "Applications of cross product in geometry",
+            "Cross product as area of quadrilateral and triangle",
+            "Scalar triple product and its Properties",
+            "Solving vector equations using scalar triple product",
+            "Volume of parallelepiped",
+            "Volume of tetrahedron",
+            "Vector triple product",
+            "Cross product of four vectors",
+            "Lagrange identity",
+            "Reciprocal system of vectors"
+          ]
+        },
+        {
+          "name": "Line and Plane",
+          "concepts": [
+            "Forms of equations of a line in space",
+            "Direction ratios of a line",
+            "Angle between lines",
+            "Distance of a point from a line",
+            "Intersecting, parallel and skew lines",
+            "Forms of Equation of plane",
+            "Family of planes",
+            "Line of intersection of two planes",
+            "Distance of a point from a plane",
+            "Distance between two parallel planes",
+            "Different sides of planes and angle between planes",
+            "Regions of one plane",
+            "Regions of two intersecting planes",
+            "Angle between two intersecting planes",
+            "Equations of bisector planes",
+            "Positions of line and plane",
+            "Angle between line and plane"
+          ]
+        },
+        {
+          "name": "Coordinate System",
+          "concepts": [
+            "Cartesian coordinate system",
+            "Transformation of axes",
+            "Distance formula and area of polygon",
+            "Section formula (internal and external)",
+            "Centroid",
+            "Circumcentre",
+            "Orthocentre",
+            "Incentre",
+            "Excentres of triangle",
+            "Slope of a line",
+            "Angle between two lines",
+            "Polar coordinates and Coordinate conversion",
+            "Locus and its equation",
+            "Finding equation of locus by elimination of variable"
+          ]
+        },
+        {
+          "name": "Straight Lines",
+          "concepts": [
+            "Point-slope form",
+            "Equation of line passing through two points",
+            "Intercept form",
+            "Normal form",
+            "Equation of line in symmetric/parametric form",
+            "Distance of a point from a line",
+            "Position of a point wrt a line",
+            "Division of plane by a line",
+            "Foot of perpendicular from a point to a line and image of a point in a line",
+            "Equations of bisectors of angles between lines",
+            "Bisector Containing the given point",
+            "Concurrency of three lines",
+            "Family of straight lines"
+          ]
+        },
+        {
+          "name": "Pair of Straight Lines",
+          "concepts": [
+            "Equation of pair of straight lines",
+            "General second-degree equation in two variables",
+            "Second-degree homogeneous equation",
+            "Angle between pair of straight lines",
+            "Equation of pair of angle bisectors",
+            "Homogenization of second-degree equation"
+          ]
+        },
+        {
+          "name": "Circle",
+          "concepts": [
+            "Equation in centre-radius form",
+            "Circle touching one or both coordinate axes",
+            "General form of equation of circle",
+            "Circle passing through three points",
+            "Circle having given end points of chord",
+            "circle having given end points of diameter",
+            "Parametric form of circle",
+            "Circle circumscribing triangle and quadrilateral",
+            "Position of point wrt circle",
+            "Max and min distance of a point from circle",
+            "Intersection of line and circle",
+            "Length of tangent to circle",
+            "Secant of circle",
+            "Equation of chord of circle bisected at given point",
+            "Tangent and normal to circle",
+            "Equation of tangent",
+            "Pair of tangents from external point",
+            "Chord of contact",
+            "Director circle",
+            "Normal to Circle",
+            "Different Cases of two circles",
+            "Radical axis of two circles",
+            "Radical centre",
+            "Family of circles"
+          ]
+        },
+        {
+          "name": "Parabola",
+          "concepts": [
+            "Conic section as locus of a point",
+            "Standard equation of parabola",
+            "Equation of chord of parabola bisected at given point",
+            "Position of a point wrt parabola",
+            "Parametric form of parabola",
+            "Parabola with axis parallel to cordinate axis",
+            "Equation of parabola with given focus and directrix",
+            "Focal chord and its properties",
+            "Intersection of a line and a parabola",
+            "Tangent to parabola",
+            "Equation of pair of tangents",
+            "Equation of chord of contact",
+            "Properties of tangent",
+            "Locus of point of intersection of tangents under different conditions",
+            "Normal to parabola",
+            "Normal to parabola from a point not lying on it",
+            "Properties of normal",
+            "Conormal point and its properties"
+          ]
+        },
+        {
+          "name": "Ellipse",
+          "concepts": [
+            "Definition of ellipse",
+            "Equation of ellipse in different forms",
+            "Standard equation of ellipse",
+            "Ellipse with axes parallel to coordinate axes",
+            "Ellipse referred to two perpendicular lines as axes",
+            "Area of ellipse",
+            "Position of a point with respect to ellipse",
+            "Property of focal chord",
+            "Equation of chord of ellipse",
+            "Parametric form of ellipse",
+            "Properties of ellipse",
+            "Tangent to ellipse",
+            "Equation of pair of tangents from external point",
+            "Director circle",
+            "Chord of contact",
+            "Properties of tangent",
+            "Normal to ellipse",
+            "Equation of normal at a given point",
+            "Equation of normal with given slope",
+            "Properties of normal",
+            "Conormal points"
+          ]
+        },
+        {
+          "name": "Hyperbola",
+          "concepts": [
+            "Definition of hyperbola",
+            "Standard equation of hyperbola",
+            "Hyperbola having axes parallel to coordinate axes",
+            "Hyperbola referred to 2 perpendicular lines as axes",
+            "Division of plane by hyperbola",
+            "Property of focal chord",
+            "Equation of chord of hyperbola bisected at given point",
+            "Parametric form of hyperbola",
+            "Property of auxiliary circle",
+            "Equation of chord of hyperbola",
+            "Tangent to hyperbola",
+            "Chord of contact",
+            "Director circle",
+            "Properties of tangent to hyperbola",
+            "Asymptotes of hyperbola",
+            "Properties of asymptotes",
+            "Normal to hyperbola",
+            "Equation of normal at a given point",
+            "Equation of normal with given slope",
+            "Property of normal",
+            "Hyperbola having asymptotes as coordinate axes",
+            "Tangent and normal to hyperbola"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Calculus",
+      "chapters": [
+        {
+          "name": "Limits",
+          "concepts": [
+            "Limit of a function",
+            "Existence of limit at x = a",
+            "Finding limit using direct substitution",
+            "Cases if lim(f*g) exists and Cases if lim(f+g) exists",
+            "Standard results and important limits",
+            "Sandwich rule",
+            "Limit in indeterminate forms",
+            "Limits using rationalization method",
+            "Limits at infinity",
+            "Standard formula for limits",
+            "Limits using expansion",
+            "Trigonometric limits",
+            "Exponential and logarithmic limits",
+            "Limit of form 1^∞",
+            "L'Hospital's rule",
+            "Indeterminate forms 0^0 and ∞^0"
+          ]
+        },
+        {
+          "name": "Differentiation",
+          "concepts": [
+            "Definition of derivative",
+            "Differentiation as slope of tangent",
+            "Derivative of composite function (chain rule)",
+            "Product rule and Quotient rule",
+            "Differentiation of implicit functions",
+            "Differentiation in parametric form",
+            "Differentiation using logarithm",
+            "Differentiation of one function wrt another",
+            "Differentiation of determinant",
+            "Higher order derivatives",
+            "Differentiation of functional relations"
+          ]
+        },
+        {
+          "name": "Continuity and Differentiability",
+          "concepts": [
+            "Continuity of function",
+            "Discontinuity and its types",
+            "Directional continuity",
+            "Continuity in interval",
+            "Check continuity by algebraic operations",
+            "Continuity involving greatest integer function",
+            "Continuity involving signum function",
+            "Continuity involving limit at infinity",
+            "Continuity of functions defined differently for rationals and irrationals",
+            "Continuity of composite function",
+            "Intermediate value theorem (IVT)",
+            "Differentiability",
+            "Reasons for non-differentiability",
+            "Differentiability in an interval",
+            "Examining differentiability using graph and derivative",
+            "Check differentiability by algebraic operations",
+            "Continuity of derivative"
+          ]
+        },
+        {
+          "name": "Application of Derivatives",
+          "concepts": [
+            "Tangent and normal at a point on a curve",
+            "Tangent and normal from external point",
+            "Condition for line to be tangent or normal",
+            "Angle between curves and orthogonal intersection",
+            "Subtangent and subnormal",
+            "Applications of tangent and normal",
+            "Derivative as rate measure",
+            "Approximation using derivative",
+            "Rolle's theorem",
+            "Lagrange's mean value theorem",
+            "Cauchy's mean value theorem",
+            "Increasing and decreasing functions",
+            "Maxima and minima of functions",
+            "First derivative test",
+            "Second derivative test",
+            "Global (absolute) maxima and minima",
+            "Applications of extrema in curve tracing",
+            "Applications of extrema in optimization",
+            "Applications of extrema in geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Trigonometry",
+      "chapters": [
+        {
+          "name": "Logarithm and Its Properties",
+          "concepts": [
+            "Exponential Function",
+            "Logarithmic Function",
+            "Fundamental Laws of Logarithm",
+            "Logarithmic Equations",
+            "Logarithmic Inequalities"
+          ]
+        },
+        {
+          "name": "Trigonometric Functions",
+          "concepts": [
+            "Trigonometric Ratios/Functions of Acute Angles",
+            "Trigonometric Identities",
+            "Measurement and conversion of Angles",
+            "Trigonometric Functions of an Angle",
+            "Behaviour of Trigonometric Functions",
+            "Trigonometric Ratios of Allied Angles"
+          ]
+        },
+        {
+          "name": "Trigonometric Ratios and Transformation Formulas",
+          "concepts": [
+            "Compound Angle Formulas for Cosine and Sine",
+            "Compound Angle Formulas for Tangent",
+            "Transformation Formula",
+            "Formulas for Sine, Cosine, Tangent and Cotangent of Multiple Angles",
+            "Values of Trigonometric Ratios of Typical Angles",
+            "Some Important Results and Their Applications",
+            "Sum of Cosines and Sines when Angles are in A.P.",
+            "Conditional Identities",
+            "Finding Range of Expression Using Trigonometric Substitution",
+            "Inequalities in Triangle"
+          ]
+        },
+        {
+          "name": "Trigonometric Equations",
+          "concepts": [
+            "Important Points in Solving Trigonometric Equations",
+            "Trigonometric Equations of type sin x = sin α, cos x = cos α, and tan x = tan α",
+            "Trigonometric Equation (f(x))^2 = (f(α))^2",
+            "Trigonometric Equation a cos x + b sin x = c",
+            "Solving Trigonometric Equations Using Maximum/Minimum Value of Function",
+            "Solving Equations Using Graphs",
+            "Trigonometric Inequalities"
+          ]
+        },
+        {
+          "name": "Properties and Solutions of Triangle",
+          "concepts": [
+            "Sine Rule (Napier Formula and m-n Theorem)",
+            "Cosine Rule",
+            "Projection Rule",
+            "Half Angle Formulas for Sine and Cosine",
+            "Area of Triangle and Quadrilateral",
+            "Solutions of Triangle",
+            "Circumcircle and Circumcentre",
+            "Incircle and Incentre",
+            "Length of Angle Bisector",
+            "Orthocentre and Centroid (Pedal and Orthic Triangles)",
+            "Escribed Circle and Excentre (Radii and Distances)",
+            "Regular Polygon (Radii and Area)"
+          ]
+        },
+        {
+          "name": "Heights and Distances",
+          "concepts": [
+            "Heights and Distances"
+          ]
+        },
+        {
+          "name": "Inverse Trigonometric Functions",
+          "concepts": [
+            "Graph of Inverse Trigonometric Functions",
+            "Function f(f^-1(x)) where f(x) is Trigonometric",
+            "Principal Values of Inverse Trigonometric Functions",
+            "Relating Different Inverse Trigonometric Functions",
+            "Complementary Angles",
+            "Sum and Difference of Angles in Terms of tan^-1, sin^-1, and cos^-1"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Algebra",
+      "chapters": [
+        {
+          "name": "Set Theory and Real Number System",
+          "concepts": [
+            "Representation and Different Types of Sets",
+            "Subsets, Proper Subsets, and Power Sets",
+            "Universal Set and Venn Diagrams",
+            "Operations on Sets (Complement, Symmetric Difference, and Venn Operations)",
+            "Intervals as Subset of Set R",
+            "Cardinal Number of Set",
+            "Inequalities",
+            "Sign Scheme Method",
+            "Modulus of Real Numbers (Graph, Absolute Value, and Modulus of Expressions)",
+            "Inequalities Involving Modulus"
+          ]
+        },
+        {
+          "name": "Theory of Equations",
+          "concepts": [
+            "Definitions (Polynomials, Rational Expressions, and Degree)",
+            "Polynomial Equations, Roots, and Solution Sets",
+            "Remainder and Factor Theorems",
+            "Identity Equation and Inequalities",
+            "Zeroes of Expression",
+            "Domain, Extraneous Roots, and Loss of Root",
+            "Graphs of Polynomial Functions",
+            "Equations Reducible to Quadratic",
+            "Quadratic Equation and Nature of Roots",
+            "Finding Range of Function Involving Quadratic Expression",
+            "Quadratic Expression in Two Variables",
+            "Relation between Roots and Coefficients of Quadratic Equation",
+            "Symmetric Functions of Roots",
+            "Common Roots"
+          ]
+        },
+        {
+          "name": "Complex Numbers",
+          "concepts": [
+            "Imaginary Numbers",
+            "Integral Powers of i",
+            "Representation of Complex Numbers",
+            "Argand Diagram",
+            "Conjugate of Complex Number",
+            "Operations on Complex Numbers",
+            "Square Root of Complex Number",
+            "Cube Roots of Unity",
+            "Polar Form of Complex Number",
+            "Multiplication and Division of Complex Numbers in Polar Form",
+            "De Moivre’s Theorem",
+            "Important Properties of Modulus",
+            "Locus Based on Distance Formula",
+            "Angle between Two Lines and Rotation Formula",
+            "The nth Roots of Unity"
+          ]
+        },
+        {
+          "name": "Principle of Mathematical Induction",
+          "concepts": [
+            "Introduction",
+            "Exercises"
+          ]
+        },
+        {
+          "name": "Progression and Series",
+          "concepts": [
+            "Arithmetic Progression",
+            "Arithmetic Mean",
+            "Sum of Terms of Arithmetic Progression",
+            "Concept Application Exercise 5.3",
+            "Geometric Progression",
+            "Properties of Terms of G.P.",
+            "Geometric Mean",
+            "Relationship between Arithmetic Mean and Geometric Mean",
+            "Sum of Terms of Geometric Progression",
+            "Sum of Infinite Terms of G.P.",
+            "Harmonic Progression",
+            "Harmonic Mean",
+            "Relation between A.M., G.M. and H.M.",
+            "Arithmetic-Geometric Progression",
+            "Sum of n Terms of A.G.P.",
+            "Sigma Notation and its Applications",
+            "Properties of Sigma Notation",
+            "Sum of Squares of First n Natural Numbers",
+            "Sum of Cubes of First n Natural Numbers",
+            "Sum of the Series even + odd + consecutive series",
+            "Sigma Notation for Independent Variables",
+            "Sum of the Series by Cancellation Method"
+          ]
+        },
+        {
+          "name": "Inequalities Involving Means",
+          "concepts": [
+            "Simple Means of Two Positive Numbers",
+            "Simple Means of n Positive Numbers",
+            "A.M.–G.M. Inequality",
+            "Weighted Means",
+            "Means of nth Power"
+          ]
+        },
+        {
+          "name": "Permutation and Combination",
+          "concepts": [
+            "Multiplication Rule",
+            "Addition Rule",
+            "Factorial Notation",
+            "Exponent of Prime in n!",
+            "Permutation",
+            "Permutation when all Objects are not Distinct",
+            "Permutation under Restriction",
+            "Combination",
+            "Circular Permutation",
+            "Clocks and Calendars",
+            "All Possible Combinations",
+            "Selection",
+            "Number of Divisors",
+            "Multinomial Theorem",
+            "Distribution of Distinct Objects",
+            "Distribution of Identical Objects",
+            "Principle of Inclusion and Exclusion"
+          ]
+        },
+        {
+          "name": "Binomial Theorem",
+          "concepts": [
+            "Pascal's Triangle",
+            "Standard Expansions",
+            "Binomial Expansions Using Complex Numbers",
+            "Middle Terms",
+            "Multinomial Expansion",
+            "Applications of Binomial Expansion",
+            "Concept Application Exercise 8.2",
+            "Coefficients of Terms in Binomial Expansion",
+            "Concept Application Exercise 8.3",
+            "Sum of Coefficients in an Expansion",
+            "Ratio of Consecutive Coefficients/Terms in Binomial Expansion",
+            "Greatest Coefficient Term in Binomial Expansion",
+            "Series Involving Binomial Coefficients",
+            "Concept Application Exercise 8.6",
+            "Series Resulting from Product of Two Expansions",
+            "Binomial Inside Binomial",
+            "Binomial Theorem for any Index",
+            "Some Frequently Used Expansions"
+          ]
+        },
+        {
+          "name": "Probability I",
+          "concepts": [
+            "Experiment",
+            "Random Experiment",
+            "Sample Space",
+            "Event and Different Types of Events",
+            "Axiomatic Approach to Probability",
+            "Mathematical or Classical Definition of Probability",
+            "Addition Theorem of Probability"
+          ]
+        },
+        {
+          "name": "Mathematical Reasoning",
+          "concepts": [
+            "Truth Table of Compound Statements",
+            "Connectives 'And' and 'Or'",
+            "Conditional Statements",
+            "Biconditional Statements",
+            "Logical Equivalence",
+            "Converse, Inverse and Contrapositive of Statement",
+            "Tautology and Contradiction",
+            "Arguments of Statements"
+          ]
+        },
+        {
+          "name": "Statistics",
+          "concepts": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Relation between Mean, Median and Mode",
+            "Range",
+            "Mean Deviation",
+            "Variance",
+            "Standard Deviation"
+          ]
+        },
+        {
+          "name": "Determinants",
+          "concepts": [
+            "Expansion of Determinant",
+            "Properties of Determinant",
+            "Area of Triangle",
+            "Condition for Three Lines to be Concurrent",
+            "Condition for General Second Degree Equation",
+            "Product of Two Determinants",
+            "Differentiation of Determinant",
+            "Integration of Determinant",
+            "System of Two Linear Equations in Two Variables",
+            "System of Three Linear Equations in Two Variables",
+            "Non-Homogeneous System of Three Linear Equations",
+            "Homogeneous System of Three Linear Equations"
+          ]
+        },
+        {
+          "name": "Matrices",
+          "concepts": [
+            "Classification of Matrices",
+            "Negative of Matrix",
+            "Trace of Matrix",
+            "Transpose of Matrix",
+            "Determinant of Square Matrix",
+            "Elementary Algebraic Operations on Matrix",
+            "Product of Matrices",
+            "Adjoint of Matrix",
+            "Properties of Adjoint of Matrix",
+            "Inverse of Matrix",
+            "Properties of Inverse of Matrix",
+            "Transformation of Matrix by Elementary Operations",
+            "Operations",
+            "Inverse of Matrix Using Elementary Transformations",
+            "Solution of System of Linear Equations Using Matrix",
+            "Characteristic Roots and Characteristic Vectors"
+          ]
+        },
+        {
+          "name": "Probability II",
+          "concepts": [
+            "Conditional Probability",
+            "Multiplication Theorem of Probability",
+            "Independent Events",
+            "Total Probability Theorem",
+            "Bayes' Theorem",
+            "Bernoulli trial and Binomial Distribution"
+          ]
+        }
+      ]
+    }
+  ]
+}

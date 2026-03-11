@@ -1,0 +1,469 @@
+{
+  "subject": "Physics",
+  "topics": [
+    {
+      "topic": "Mechanics",
+      "chapters": [
+        {
+          "name": "Units and Measurement",
+          "concepts": [
+            "Units of measurements",
+            "System of units",
+            "SI Units",
+            "Fundamental and derived units",
+            "Least count",
+            "Significant figures",
+            "Errors in measurements",
+            "Dimensions of Physics",
+            "physical quantities",
+            "Dimensional analysis"
+          ]
+        },
+        {
+          "name": "Kinematics",
+          "concepts": [
+            "Motion in a straight line",
+            "Motion in a Plane",
+            "Frame of reference",
+            "Relative velocity",
+            "Speed and velocity (average and instantaneous)",
+            "Uniform and non-uniform motion",
+            "Uniformly accelerated motion",
+            "Velocity-time and position-time graphs",
+            "Projectile motion"
+          ]
+        },
+        {
+          "name": "Laws of motion",
+          "concepts": [
+            "Force and inertia",
+            "Newton's first law of motion",
+            "Momentum",
+            "Newton's second law of motion",
+            "Impulse",
+            "Newton's third law of motion",
+            "Law of conservation of linear momentum",
+            "Equilibrium of concurrent forces",
+            "Pseudo Force"
+          ]
+        },
+        {
+          "name": "Friction",
+          "concepts": [
+            "Static friction",
+            "Kinetic friction",
+            "Laws of friction",
+            "Rolling friction"
+          ]
+        },
+        {
+          "name": "Circular Motion",
+          "concepts": [
+            "Angular Variables",
+            "Vectors along the Radius and Tangent",
+            "Uniform circular motion",
+            "Acceleration in Circular Motion",
+            "Centripetal force",
+            "Centrifugal Force",
+            "Apparent weight due to rotation",
+            "Vehicle on a level circular road",
+            "Vehicle on a banked road",
+            "Vertical Circular Motion",
+            "Radius of Curvature"
+          ]
+        },
+        {
+          "name": "Work Energy and Power",
+          "concepts": [
+            "Work done by a constant force",
+            "Work done by a variable force",
+            "Kinetic energy",
+            "Potential energy",
+            "Work-energy theorem",
+            "Work-energy Theorem for a System of Particles",
+            "Conservative forces",
+            "Non-conservative forces",
+            "Potential energy of a spring",
+            "Conservation of mechanical energy",
+            "Power"
+          ]
+        },
+        {
+          "name": "Centre of mass",
+          "concepts": [
+            "COM of system of particles",
+            "COM of a rigid body",
+            "Motion of Centre of Mass",
+            "Linear Momentum and its Conservation",
+            "Rocket Propulsion",
+            "Collision",
+            "Elastic Collision in 1D",
+            "Elastic Collision in 2D",
+            "Inelastic Collision",
+            "Coefficient of Restitution",
+            "Oblique Collision",
+            "Impulse and Impulsive Force"
+          ]
+        },
+        {
+          "name": "Rotational Motion",
+          "concepts": [
+            "Basic concepts of rotational motion",
+            "Rotation about a fixed axis",
+            "Kinematics and Equations of rotational motion",
+            "Comparison of linear and rotational motion",
+            "Torque and Moment of a force",
+            "Rotational dynamics (Torque = Iα)",
+            "Angular momentum (L = Iω)",
+            "Conservation of angular momentum",
+            "Angular impulse",
+            "Moment of inertia",
+            "Radius of gyration",
+            "Parallel and Perpendicular axis theorem",
+            "KE and work-energy in rotation",
+            "Power and work done by torque",
+            "Equilibrium of rigid bodies",
+            "Rolling motion",
+            "Rolling on an Inclined Plane",
+            "Toppling",
+            "Instantaneous axis of rotation",
+            "Collision of point masses with rigid bodies",
+            "KE and angular momentum in combined rotation and translation",
+            "Bending of a cyclist on a horizontal turn",
+            "Why a rolling sphere slows down"
+          ]
+        },
+        {
+          "name": "Gravitation",
+          "concepts": [
+            "Universal law of gravitation",
+            "Acceleration due to gravity and its variation with altitude and depth",
+            "Kepler's laws of planetary motion",
+            "Gravitational potential energy",
+            "Gravitational field",
+            "Gravitational potential & its relation with field",
+            "Escape velocity",
+            "Motion of a satellite",
+            "Orbital velocity",
+            "Time period of a satellite",
+            "Energy of a satellite",
+            "Inertial and Gravitational mass"
+          ]
+        },
+        {
+          "name": "Oscillations and Waves",
+          "concepts": [
+            "Oscillations and periodic motion: time period, frequency, displacement as a function of time, periodic functions",
+            "Simple harmonic motion and its equation",
+            "Phase in SHM",
+            "Oscillations of a spring",
+            "Energy in SHM (KE and PE)",
+            "Simple pendulum",
+            "Wave motion",
+            "Longitudinal and transverse waves",
+            "Speed of the traveling wave",
+            "Displacement of a progressive wave",
+            "Superposition of waves",
+            "Reflection of waves",
+            "Standing waves in strings and organ pipes",
+            "Fundamental mode and harmonics",
+            "Beats"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Matter & Thermodynamics",
+      "chapters": [
+        {
+          "name": "Properties of Solids",
+          "concepts": [
+            "Elasticity",
+            "Stress-strain relationship",
+            "Hooke's Law",
+            "Young's modulus",
+            "Bulk modulus",
+            "Modulus of rigidity"
+          ]
+        },
+        {
+          "name": "Fluids",
+          "concepts": [
+            "Pressure due to a fluid column",
+            "Pascal's law",
+            "Effect of gravity on fluid pressure",
+            "Viscosity",
+            "Stoke's law",
+            "Terminal velocity",
+            "Streamline flow",
+            "Turbulent flow",
+            "Critical velocity",
+            "Bernoulli's principle",
+            "Surface energy",
+            "Surface tension",
+            "Angle of contact",
+            "Excess of pressure across a curved surface",
+            "surface tension: drops",
+            "surface tension: bubbles",
+            "Capillary rise"
+          ]
+        },
+        {
+          "name": "Heat and Temperature",
+          "concepts": [
+            "Heat",
+            "Temperature",
+            "Thermal expansion",
+            "Specific heat capacity",
+            "Calorimetry",
+            "Change of state",
+            "Latent heat",
+            "Conduction",
+            "Convection",
+            "Radiation"
+          ]
+        },
+        {
+          "name": "Thermodynamics",
+          "concepts": [
+            "Thermal equilibrium and concept of temperature",
+            "Zeroth law of thermodynamics",
+            "Heat",
+            "Work",
+            "Internal energy",
+            "First law of thermodynamics",
+            "Isothermal processes",
+            "Adiabatic processes",
+            "Second law of thermodynamics",
+            "Reversible processes",
+            "Irreversible processes"
+          ]
+        },
+        {
+          "name": "Kinetic Theory of Gases",
+          "concepts": [
+            "Equation of state of a perfect gas",
+            "Work done on compressing a gas",
+            "Kinetic theory of gases: assumptions",
+            "Concept of pressure in kinetic theory",
+            "Kinetic interpretation of temperature",
+            "RMS speed of gas molecules",
+            "Degrees of freedom",
+            "Law of equipartition of energy",
+            "Equipartition to specific heat capacities of gases",
+            "Mean free path",
+            "Avogadro's number"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Electricity & Magnetism",
+      "chapters": [
+        {
+          "name": "Electrostatics",
+          "concepts": [
+            "Electric charges: conservation of charge",
+            "Coulomb's law on point charges & multiple charges",
+            "superposition principle",
+            "continuous charge distribution",
+            "Electric field",
+            "electric field lines",
+            "electric dipole",
+            "electric field due to a dipole",
+            "torque on a dipole in a uniform electric field",
+            "Electric flux",
+            "Gauss's law and its applications",
+            "Electric potential",
+            "system of charges",
+            "potential difference",
+            "equipotential surfaces",
+            "Electrical potential energy",
+            "PE of dipole in an electrostatic field",
+            "Conductors and insulators",
+            "dielectrics and electric polarization",
+            "capacitors and capacitance",
+            "combination of capacitors in series and parallel",
+            "parallel plate capacitor with and without dielectric medium",
+            "energy stored in a capacitor"
+          ]
+        },
+        {
+          "name": "Current Electricity",
+          "concepts": [
+            "Drift velocity, mobility and their relation with electric current",
+            "Ohm's law",
+            "Electrical resistance",
+            "I-V characteristics of Ohmic conductors",
+            "I-V characteristics of non-Ohmic conductors",
+            "Electrical energy and power",
+            "Electrical resistivity",
+            "Electrical conductivity",
+            "Series combinations of resistors",
+            "Parallel combinations of resistors",
+            "Temperature dependence of resistance",
+            "Internal resistance of a source",
+            "Potential difference and emf of a cell",
+            "Combination of cells in series",
+            "Combination of cells in parallel",
+            "Kirchhoff's laws",
+            "Wheatstone bridge",
+            "Metre bridge"
+          ]
+        },
+        {
+          "name": "Magnetic Effects of electric current",
+          "concepts": [
+            "Biot-Savart law and its application",
+            "Ampere's law and its applications",
+            "Force on a moving charge in uniform magnetic and electric fields",
+            "Force on a current-carrying conductor in a uniform magnetic field",
+            "Force between two parallel currents carrying conductors",
+            "Definition of ampere",
+            "Torque experienced by a current loop in a uniform magnetic field",
+            "Moving coil galvanometer",
+            "Sensitivity of moving coil galvanometer",
+            "Conversion of galvanometer to ammeter",
+            "Conversion of galvanometer to voltmeter",
+            "Current loop as a magnetic dipole and its magnetic dipole moment",
+            "Bar magnet as an equivalent solenoid",
+            "Magnetic field lines",
+            "Magnetic field due to a magnetic dipole",
+            "Torque on a magnetic dipole in a uniform magnetic field",
+            "Paramagnetic and diamagnetic substances",
+            "Ferromagnetic substances with examples",
+            "Effect of temperature on magnetic properties"
+          ]
+        },
+        {
+          "name": "Electromagnetic Induction and Alternating Currents",
+          "concepts": [
+            "Electromagnetic induction",
+            "Faraday's law",
+            "Induced emf and current",
+            "Lenz's law",
+            "Eddy currents",
+            "Self inductance",
+            "Mutual inductance",
+            "Alternating current",
+            "Peak and RMS value of AC voltage/current",
+            "Reactance",
+            "Impedance",
+            "LCR series circuit",
+            "Resonance in AC circuits",
+            "Power in AC circuits",
+            "Wattless current",
+            "AC generator",
+            "Transformer"
+          ]
+        },
+        {
+          "name": "Electromagnetic Waves",
+          "concepts": [
+            "Displacement current",
+            "EM waves and their characteristics",
+            "Transverse nature of EM waves",
+            "Electromagnetic spectrum",
+            "Radio waves",
+            "Microwaves",
+            "Infrared",
+            "Visible light",
+            "Ultraviolet",
+            "X-rays",
+            "Gamma rays",
+            "Applications of EM waves"
+          ]
+        },
+        {
+          "name": "Electronic Devices",
+          "concepts": [
+            "Semiconductors",
+            "Semiconductor diode",
+            "I-V characteristics in forward bias",
+            "I-V characteristics in reverse bias",
+            "Diode as a rectifier",
+            "I-V characteristics of LED",
+            "Photodiode",
+            "Solar cell",
+            "Zener diode",
+            "Zener diode as a voltage regulator",
+            "Logic gates (OR. AND. NOT. NAND and NOR)"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Optics and Modern Physics",
+      "chapters": [
+        {
+          "name": "Geometrical Optics",
+          "concepts": [
+            "Reflection of light",
+            "Spherical mirrors",
+            "Mirror formula",
+            "Refraction of light at plane and spherical surfaces",
+            "Thin lens formula",
+            "Lens maker formula",
+            "Total internal reflection and its applications",
+            "Magnification",
+            "Power of a lens",
+            "Combination of thin lenses in contact",
+            "Refraction of light through a prism",
+            "Microscope (optical) and its magnifying power",
+            "astronomical telescope (reflecting and refracting ) and their magnifying powers"
+          ]
+        },
+        {
+          "name": "Wave Optics",
+          "concepts": [
+            "Wave optics",
+            "Wavefront and Huygens' Principle",
+            "Laws of reflection and refraction using Huygens' principle",
+            "Interference",
+            "Young's double-slit experiment",
+            "Expression for fringe width",
+            "Coherent sources",
+            "Sustained interference of light",
+            "Diffraction due to a single slit",
+            "Width of central maximum",
+            "Polarization",
+            "Plane-polarized light",
+            "Brewster's law",
+            "Uses of plane-polarized light",
+            "Polaroid"
+          ]
+        },
+        {
+          "name": "Dual nature of matter and radiation",
+          "concepts": [
+            "Dual nature of radiation",
+            "Photoelectric effect",
+            "Hertz and Lenard's observations",
+            "Einstein's photoelectric equation",
+            "Particle nature of light",
+            "Matter waves",
+            "Wave nature of particle",
+            "de Broglie relation"
+          ]
+        },
+        {
+          "name": "Atoms and Nuclei",
+          "concepts": [
+            "Alpha-particle scattering experiment",
+            "Rutherford's model of the atom",
+            "Bohr model",
+            "Energy levels",
+            "Hydrogen spectrum",
+            "Composition and size of the nucleus",
+            "Atomic masses",
+            "Mass-energy relation",
+            "Mass defect",
+            "Binding energy per nucleon and its variation with mass number",
+            "Nuclear fission",
+            "Nuclear fusion"
+          ]
+        }
+      ]
+    }
+  ]
+}
