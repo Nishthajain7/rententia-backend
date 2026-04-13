@@ -6,7 +6,7 @@ from google.auth.exceptions import GoogleAuthError
 from google.auth.transport import requests
 from google.oauth2 import id_token
 from sqlalchemy.orm import Session
-from app.crud import user as user_crud
+from app.crud.user import authenticate_user, create_google_user, get_user, username_exists
 from app.dependencies import get_db
 from app.schemas.user import (GoogleAuthRequest, GoogleCompleteProfile,
                               GoogleVerifiedResponse, LoginRequest, UserOut)
@@ -33,10 +33,22 @@ def _set_session_cookie(response: Response, db: Session, user_id: int):
         max_age=60 * 60 * 24 * SESSION_TTL_DAYS,
     )
 
+def verify_google_token(token: str):
+    try:
+        return id_token.verify_oauth2_token(
+            token, requests.Request(), GOOGLE_CLIENT_ID
+        )
+
+    except (GoogleAuthError, ValueError):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid Google token",
+        )
+
 # Existing user
 @router.post("/login", response_model=UserOut)
 def login(payload: LoginRequest, response: Response, db: Session = Depends(get_db)):
-    user = user_crud.authenticate_user(db, payload.username, payload.password)
+    user = authenticate_user(db, payload.username, payload.password)
     if not user:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -49,23 +61,13 @@ def login(payload: LoginRequest, response: Response, db: Session = Depends(get_d
 @router.post("/google-verify", response_model=GoogleVerifiedResponse)
 def google_verify(payload: GoogleAuthRequest, db: Session = Depends(get_db)):
 
-    try:
-        idinfo = id_token.verify_oauth2_token(
-            payload.token, requests.Request(), GOOGLE_CLIENT_ID
-        )
-
-    except (GoogleAuthError, ValueError):
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Invalid Google token",
-        )
-
+    idinfo = verify_google_token(payload.token)
     google_id = idinfo["sub"]
 
-    if user_crud.get_user(db, google_id):
+    if get_user(db, google_id):
         raise HTTPException(
             status_code=status.HTTP_409_CONFLICT,
-            detail="Account already exists. Please log in with your username and password.",
+            detail="Account already exists. Please log in.",
         )
 
     return GoogleVerifiedResponse(
@@ -80,28 +82,26 @@ def complete_profile(
     response: Response,
     db: Session = Depends(get_db),
 ):
-    try:
-        idinfo = id_token.verify_oauth2_token(
-            payload.token, requests.Request(), GOOGLE_CLIENT_ID
-        )
-    except (GoogleAuthError, ValueError):
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Invalid Google token",
-        )
+    idinfo = verify_google_token(payload.token)
 
     google_id = idinfo["sub"]
     email = idinfo["email"]
     name = idinfo.get("given_name") or idinfo.get("name", "")
 
-    if user_crud.get_user(db, google_id):
+    if get_user(db, google_id):
         raise HTTPException(
             status_code=status.HTTP_409_CONFLICT,
             detail="Account already exists. Please log in.",
         )
 
+    if username_exists(db, payload.username):
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT,
+            detail="Username already taken",
+        )
+
     try:
-        user = user_crud.create_google_user(
+        user = create_google_user(
             db=db,
             google_id=google_id,
             email=email,
@@ -117,7 +117,7 @@ def complete_profile(
         db.rollback()
         raise HTTPException(
             status_code=status.HTTP_409_CONFLICT,
-            detail="Username or email is already taken.",
+            detail="Account already exists",
         )
 
     _set_session_cookie(response, db, user.id)
