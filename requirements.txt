@@ -10,3 +10,4 @@ email-validator==2.3.0
 ruff==0.5.7
 pytest==9.0.2
 google-genai==1.55.0
+redis==7.4.0
