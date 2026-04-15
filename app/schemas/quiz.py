@@ -16,6 +16,14 @@ class QuizQuestion(BaseModel):
     correct_answer: str
     related_concepts: List[str]
         
+class QuizQuestionSafe(BaseModel):
+    question: str
+    options: List[str] = Field(min_length=4, max_length=4)
+ 
+class QuizResponse(BaseModel):
+    quiz_id: str
+    questions: List[QuizQuestionSafe]
+        
 QUIZ_RESPONSE_SCHEMA = {
     "type": "array",
     "items": {
