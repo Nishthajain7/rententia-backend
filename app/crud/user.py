@@ -17,6 +17,11 @@ def authenticate_user(db: Session, username: str, password: str):
         return None
     return user
 
+def username_exists(db: Session, username: str) -> bool:
+    return db.query(models.User.id).filter(
+        models.User.username == username
+    ).first() is not None
+
 def create_google_user(
     db: Session,
     google_id: str,
