@@ -46,7 +46,7 @@ def verify_google_token(token: str):
         )
 
 # Existing user
-@router.post("/login", response_model=UserOut)
+@router.post("/username-login", response_model=UserOut)
 def login(payload: LoginRequest, response: Response, db: Session = Depends(get_db)):
     user = authenticate_user(db, payload.username, payload.password)
     if not user:
@@ -54,6 +54,21 @@ def login(payload: LoginRequest, response: Response, db: Session = Depends(get_d
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid username or password",
         )
+    _set_session_cookie(response, db, user.id)
+    return user
+
+@router.post("/google-login", response_model=UserOut)
+def google_login(payload: GoogleAuthRequest, response: Response, db: Session = Depends(get_db)):
+    idinfo = verify_google_token(payload.token)
+    google_id = idinfo["sub"]
+
+    user = get_user(db, google_id)
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="User not found. Please sign up first.",
+        )
+
     _set_session_cookie(response, db, user.id)
     return user
 
@@ -76,7 +91,7 @@ def google_verify(payload: GoogleAuthRequest, db: Session = Depends(get_db)):
         name=idinfo.get("given_name") or idinfo.get("name", ""),
     )
         
-@router.post("/complete-profile", response_model=UserOut)
+@router.post("/google_register", response_model=UserOut)
 def complete_profile(
     payload: GoogleCompleteProfile,
     response: Response,
